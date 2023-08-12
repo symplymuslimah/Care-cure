@@ -375,9 +375,9 @@ font-size: 27px; font-weight:900; color: #05286e;
   .contact-us-container {
       max-width: 1000px;
       width: 100%;
-      height:50vh;
-      padding:50px 0px;
-      background-color:rgba(206, 216, 247, 0.945);
+      height:70vh;
+     
+      
       padding:40px; margin: auto;
       border-radius: 5px;
       display: grid;
@@ -555,7 +555,7 @@ footer {
     display: flex; flex-direction:column;
     width: auto; height:50vh;
     align-items: flex-start;
-  
+ gap:0.5rem;
 }
 
   }
@@ -581,4 +581,82 @@ footer {
       .search-about{
           margin-top: -30px;
            }
+  }
+
+/* media screen at 480px */
+  @media screen and (max-width:480px) {
+    nav ul li a {
+        font-size:10px;
+    }
+      .logo {
+          font-size: 15px;
+      }
+    .about-content h3{
+        font-size: 25px;
+    }
+    .about-content p {
+        font-size:10px;
+         margin-bottom:7px;
+     }
+     .about-content .button-content { 
+         display: flex; flex-direction: row;
+        
+     }
+     .about-content .button-content button {
+        font-size: 10px; padding: 7px;
+     }
+     .search-about{
+        max-width:300px;
+        margin-left: 40px;
+      
+    }
+    .our-story {
+        max-width:800px; width:85%;
+        background-color: #f5f7fb;
+        border:5px solid #ffffff;   
+    margin-left:20px;
+      }
+      .our-story-img  img{ width:50vw;
+        height:40vh;
+    }
+    .our-story-container h3{
+        font-size: 2rem;
+    }
+    .our-story-container p{
+        width:250px;
+    }
+    .quality-services-container{
+        height:70vh;
+    }
+    .services{
+        width:70%;
+        
+    }
+    .our-specialist-container {
+       width:80%;
+       margin:100px 40px;
+        border:3px solid #ffffff;   
+       padding-right: 20px;
+    }
+    .feedback-content{
+        width:70%;
+    }
+    .contact-us-container {
+        height:75vh;
+    }
+    .subscribe-container h3 {
+        width:300px;
+    }
+    .subscribe-button {
+        padding:10px;
+       margin-top:10px;
+        }
+        footer {
+            padding:20px;
+            height:70vh;
+        }
+        .footer-content1 p {
+width:350px;
+        }
+
   }
