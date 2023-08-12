@@ -591,8 +591,7 @@ footer {
       .logo {
           font-size: 15px;
       }
-      .about-content{ position:relative; top:18%;
-                     left:5%;}
+      
     .about-content h3{
         font-size: 25px;
     }
@@ -631,7 +630,7 @@ footer {
         height:70vh;
     }
     .services{
-        width:80%;
+        width:70%;
         
     }
     .our-specialist-container {
